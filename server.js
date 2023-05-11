@@ -1,7 +1,7 @@
 'use strict'
 const express = require('express');
 const server = express();
-const data = require('../MovieData/data.json');
+const data = require('./data.json');
 const cors = require('cors');
 const axios = require('axios');
 const pg= require('pg');
